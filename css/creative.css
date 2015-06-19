@@ -52,6 +52,14 @@ a:focus {
     padding: 1%;    
 }
 
+.action_btn{
+    border-color: #02ADEA;
+    color: #fff;
+    transition: all .35s;
+    background-color: #02ADEA;
+}
+
+
 
 h1,
 h2,
