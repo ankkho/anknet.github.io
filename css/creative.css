@@ -4,6 +4,11 @@ body {
     height: 100%;
 }
 
+@font-face {
+    font-family: 'custom'; 
+    src: url('../fonts/custom.ttf');
+}
+
 body {
     font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
 }
@@ -60,6 +65,7 @@ a:focus {
 }
 
 .pm_text{
+    font-family: 'custom';
     font-size: 40px;
 }
 
