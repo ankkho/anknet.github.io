@@ -45,4 +45,14 @@
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
+    $('.carousel-control').hover(function(){
+        $('.overlay').hide();
+    },function(){
+        $('.overlay').show();
+    });
+
+
+
+
+
 })(jQuery); // End of use strict
